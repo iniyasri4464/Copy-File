@@ -18,8 +18,9 @@ Check your system's maximum column with the pd.options.display.max_column statem
 ### Step 6: 
 End the program.
 ## PROGRAM:
+```
 #To write a python program for reading content from a CSV file.
-#Developed by: Iniyasri.s
+#Developed by: Iniyasri.S
 #Register Number: 212223230081
 
 import pandas as pd
@@ -28,6 +29,8 @@ print(df.head(10))
 print(df.tail())
 print("Number of rows:",len(df.axes[0]))
 print("Number of columns:",len(df.axes[1]))
+
+```
 ### OUTPUT:
 ![alt text](image.png)
 
